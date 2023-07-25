@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Solution</title>
+    <!-------google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    .font-garamond{
+        font-family: 'EB Garamond', serif;
+    }
+    .font-poppins{
+ font-family: 'Poppins', sans-serif;    
+    }
+  </style>
+</head>
+<body class="font-poppins">
+  <header>
+  <nav>
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li>
+                <a>Services</a>
+              </li>
+              <li><a>Cases</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="flex flex-col lg:flex-row lg:items-center lg:ml-28">
+            <img src="./images/logo.png" alt="Logo" class="block lg:-mr-16">
+            <span class="lg:-ml-8 font-garamond font-extrabold text-3xl">Justice</span>
+          </div>
+          
+          <!-- <a class="normal-case text-xl">daisyUI</a> -->
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Cases</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+        </div>
+        <div class="navbar-end">
+            <button class="rounded-lg bg-[#B68C5A] w-48 h-8">Free Constitution</button>
+        </div>
+      </div> 
+  </nav>
+     <!-----------Hero Section----------------->
+     <div class="hero min-h-[calc(100vh-67px)]" style="background-image: url(./images/banner.png);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-garamond">We Provide Effective Legal Solutions</h1>
+            <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+           <div class="flex gap-4">
+            <input type="text" placeholder="Search Your Services" class="input input-bordered w-full max-w-xs" />
+            <button class="rounded-lg w-36 h-12 bg-[#B68C5A]">Search</button>
+           </div>
+          </div>
+        </div>
+      </div>
+  </header>  
+  <main>
+    <!--------legal practice area----------------------------->
+    <section class="max-w-screen-xl mx-auto"></section>
+    <div>
+       <div>
+        <div>
+         <img src="./images/business.png" alt="">   
+        </div>
+       </div> 
+    </div>
+  </main>
+</body>
+</html>
